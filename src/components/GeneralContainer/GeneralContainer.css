@@ -1,0 +1,4 @@
+.GeneralContainer {
+    display: flex;
+    flex-direction: column;
+}
