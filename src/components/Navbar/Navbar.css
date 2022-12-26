@@ -1,0 +1,141 @@
+.ContainerNavbar {
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    right: -3.5vw;
+    top: 30vh;
+    font-family: 'Josefin Sans';
+    transition: all .3s ease-in-out;
+}
+
+.NavbarDiv {
+    width: 3.5vw;
+    height: 40vh;
+    display: flex;
+    border-bottom-left-radius: .4vw;
+    flex-direction: column;
+    background-color: #f1c9c9;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Item a{
+    text-decoration: none;
+    color: black;
+    transition: all .2s;
+}
+.Item a:hover{
+    transform: scale(120%);
+}
+.Item a:hover ~ p {
+    display: block;
+}
+.Item p{
+    background-color: rgb(26, 26, 26);
+    margin-top: 2vw;
+    position: absolute;
+    display: none;
+    color: white;
+    width: max-content;
+    border-radius: 2px;
+    padding:.1vw;
+    font-size: .8vw;
+}
+
+.Arrow {
+    height: 2.5vw;
+    width: 2vw;
+    background-color: #dcb2b2;
+    border-bottom-left-radius: .5vw;
+    border-top-left-radius: .5vw;
+    display: flex;
+}
+
+#inp {
+    display: none;
+}
+
+#rightArrow {
+    position: absolute;
+    display: none;
+    margin-top: .6vw;
+    margin-left: .4vw;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#leftArrow {
+    position: absolute;
+    margin-top: .6vw;
+    margin-left: .4vw;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#inp:checked ~ .ContainerNavbar .Arrow .switchArrow #rightArrow {
+    display: block;
+}
+#inp:checked ~  .ContainerNavbar{
+    transform: translateX(-3.4vw);
+}
+#inp:checked ~ .ContainerNavbar .Arrow .switchArrow #leftArrow {
+    display:none;
+}
+
+.Arrow .switchArrow {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+}
+.Arrow .switchArrow svg:hover{
+    transform: scale(130%);
+}
+
+.Arrow .arrows {
+    position: absolute;
+}
+
+
+/* Pantallas MÓVILES */
+@media (max-width:600px) {
+    .ContainerNavbar {
+        top: 35vh;
+        right: -9vw;
+    }
+    .NavbarDiv {
+        width: 9vw;
+        height: 70vw;
+    }
+    .ContainerNavbar svg {
+        width: 5vw;
+        height: 4.5vw;
+    }
+    #inp:checked ~  .ContainerNavbar{
+        transform: translateX(-9vw);
+    }
+    .Item p {
+        margin-top: 6vw;
+        font-size: 1.2vh;
+    }
+    .Arrow {
+        height: 6vw;
+        width: 6.5vw;
+        border-bottom-left-radius: 1vw;
+        border-top-left-radius: 1vw;
+    }
+    #rightArrow {
+        margin-top: 0.8vw;
+        margin-left: .6vw;
+    }
+    
+    #leftArrow {
+        margin-top: 0.8vw;
+        margin-left: .6vw;
+    }
+}
+
+

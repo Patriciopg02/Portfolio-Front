@@ -3,17 +3,20 @@ import bgDark from '../../resources/Fondo Dark.jpg';
 
 const LightTheme = {
     background_1: bgLight,
+    colorText:'#8C2A2A',
     // ---whatido---
     background_2: '#ffffff',
-    keep_2: '#00000062',
+    keep_2: '#b76565',
     box_2: '#e9afaf',
     border_box2: '#e9a0a0',
     // ---projects---
-    background_3: '#1e0000',
-    keep_3: '#00000062',
-    box_3: '#eec2c2',
+    background_3: '#ececec',
+    keep_3: '#b76565',
+    box_3: '#f6e6e6',
     border_box3: '#efbbbb',
-    carousel_bg:'#eec2c2',
+    carousel_bg:'#f6e6e6',
+    h1_3:'#000000',
+    shadow_3:'#ebacac',
     //---about---
     background_4: '#ffffff',
     keep_4: '#00000062',
@@ -28,9 +31,10 @@ const LightTheme = {
 
 const DarkTheme = {
     background_1: bgDark,
+    colorText:'#930000',
     // ---whatido---
     background_2: '#000000',
-    keep_2: '#ffffff62',
+    keep_2: '#adff2f',
     box_2: '#160000',
     border_box2: '#210000',
     // ---projects---
@@ -39,6 +43,8 @@ const DarkTheme = {
     box_3: '#110000',
     border_box3: '#2a0000',
     carousel_bg:'#110000',
+    h1_3:'#ffffff',
+    shadow_3:'#930000',
     //---about---
     background_4: '#0c0000',
     keep_4: '#adff2f',

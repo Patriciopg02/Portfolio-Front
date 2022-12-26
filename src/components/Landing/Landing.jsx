@@ -8,6 +8,7 @@ import {
 export default function Landing({theme}) {
     return (
        <LandingDiv>
+        <a name='landingSection'></a>
         <img src={theme.background_1}/>
         <TextLanding>
           <h1>¡Welcome!</h1>

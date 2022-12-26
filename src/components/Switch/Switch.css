@@ -1,0 +1,73 @@
+#chk {
+    display: none;
+}
+#moon {
+    display: none;
+}
+#sun {
+    color: rgb(90, 33, 33);
+}
+
+.switch {
+    position: absolute;
+    top: 1.5vw;
+    left: 1.5vw;
+    background-color: #f1c9c9;
+    width: 5.5vw;
+    height: 2.5vw;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    padding: .5vw;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.slider {
+    background-color:transparent;
+    border-radius: 5vw;
+    width: 1.5vw;
+    transition: all .5s ease-in-out;
+    margin-bottom: .5vh;
+}
+
+svg {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#chk:checked ~ .switch {
+    background-color: rgb(90, 33, 33);
+}
+#chk:checked ~ .switch .slider{
+    transform: translateX(3vw);
+}
+#chk:checked ~ .switch .slider #moon{
+   display: inline-block;
+   color:rgb(241, 201, 201);
+}
+#chk:checked ~ .switch .slider #sun{
+    display: none;
+}
+
+
+/* Pantallas MÓVILES */
+@media (max-width:600px) {
+    .switch {
+        width: 20vw;
+        height: 8vw;
+        padding: 1.5vw;
+    }
+    
+    .slider {
+        width: 3vw;
+    }
+    
+    svg {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+    #chk:checked ~ .switch .slider{
+        transform: translateX(12vw);
+    }
+}
