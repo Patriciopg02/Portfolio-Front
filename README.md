@@ -1,4 +1,4 @@
-You can view the backend right here => https://github.com/Patriciopg02/Portfolio-Back
+You can view the backend right here => https://github.com/Patriciopg02/Portfolio-Backend
 
 
 # Getting Started with Create React App
