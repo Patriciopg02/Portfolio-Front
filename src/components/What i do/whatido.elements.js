@@ -127,9 +127,9 @@ export const TechsContainer = styled.div `
     }
 
     img {
-        width: 4.2vw;
+        width: 4vw;
         transition: all .3s;
-        height: 4.5vw;
+        height: 4.2vw;
         margin: 1.5vw;
     }
 
