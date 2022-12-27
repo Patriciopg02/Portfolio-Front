@@ -159,6 +159,7 @@ export const TextyBTN = styled.div `
 
 export const Cont2 = styled.div `
   margin-right: 10%;
+  margin-top:2%;
   text-align: center;
 
   #fotoperfil {
