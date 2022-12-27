@@ -159,6 +159,7 @@ export const TextyBTN = styled.div `
 
 export const Cont2 = styled.div `
   margin-top: 4%;
+  margin-bottom: 4%;
   margin-right: 10%;
   text-align: center;
 
