@@ -294,7 +294,7 @@ export const ModalBody = styled.div `
     margin-bottom:2vw;
   }
   .form-control {
-    margin-bottom:2vw;
+    margin-bottom:4vw;
   }
 
   label {
