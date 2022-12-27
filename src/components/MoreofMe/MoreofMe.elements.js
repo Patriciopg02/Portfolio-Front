@@ -291,10 +291,10 @@ export const ModalBody = styled.div `
   padding:2vw;
 
   input {
-    margin-bottom:2vw;
+    margin-bottom:1vw;
   }
   .form-control {
-    margin-bottom:4vw;
+    margin-bottom:3vw;
   }
 
   label {
