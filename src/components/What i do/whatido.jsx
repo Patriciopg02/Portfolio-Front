@@ -17,8 +17,8 @@ export default function Whatido() {
 
     return (
         <WhatidoDiv>
-                <a name='whatidoSection'></a>
             <Div1>
+                    <a name='whatidoSection'></a>
                     <Cont1 data-aos="zoom-in-right"
                         data-aos-delay="150"
                         data-aos-duration="2000">

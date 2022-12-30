@@ -291,14 +291,26 @@ export const ModalBody = styled.div `
   padding:2vw;
 
   input {
-    margin-bottom:5vw;
+    margin-bottom:1vw;
   }
   .form-control {
-    margin-bottom:10vw;
+    margin-bottom:3vw;
   }
 
   label {
     color:grey;
-    margin-bottom:3vw;
+    margin-bottom:1vw;
+  }
+  
+  @media (max-width:600px) {
+    input {
+      margin-bottom:5vw;
+    }
+    .form-control {
+      margin-bottom:10vw;
+    }
+    label {
+      margin-bottom:3vw;
+    }
   }
 `
