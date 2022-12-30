@@ -164,7 +164,7 @@ export const Cont2 = styled.div `
 
   #fotoperfil {
     width: 28vw;
-    height: 38vw;
+    height: 36vw;
     border-radius: 1%;
     margin-bottom:1.5vw;
   }
