@@ -30,7 +30,7 @@ export const WhatidoDiv = styled.div `
 export const Div1 = styled.div `
     display:flex; 
     flex-direction:column;
-    margin-left:-35vw;
+    margin-left:0vw;
 
     @media (max-width:600px) {
         margin-left:0vw;
